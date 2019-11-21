@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>Joseph Pagani</title>
+                    <meta name="description" content="Joseph Pagani is a Full stack developer with a passion and 
+                    greater expertise for front end developement.  Joseph currently lives 
+                    in the greater Seattle area, more specifically Gig Harbor.  Joseph is mostly self taught
+                    and attended and is a coding Dojo graduate as of August 2018." >
+                    <link rel="stylesheet" href="../css/index.css">
+                </head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <script>
+                        $(document).ready(function()
+                        {
+                            $(".box1").click(function()
+                            {
+                            if ($(this).attr("src") == "../images/illidan Background.jpg")
+                            {
+                                $(this).attr("src", "../images/Thrall Backround.jpg");
+                            }
+                            else
+                            {
+                                $(this).attr("src",  "../images/illidan Background.jpg");
+                            }
+                            });
+                        });
+                    </script>
+    <body>
+        <div id="wrapper">
+                <div id="silver">
+          
+                <div class="heading">
+                    <span id="header">Joseph Pagani</span>
+                    <span id="header1"> Full Stack web develpoer with a passion for front end Web Design</span>
+                </div>
+                         
+                </div>
+                <div class="top_section">
+                    <div id="pic">
+                        <img id="pic" src="../images/profile_pic1.jpg" onmouseover="this.src='../images/download.png';
+                        "onmouseout="this.src='../images/profile_pic1.jpg'">
+                    </div>
+                    <div id="bio">
+                        <p><button class="button">My life Passions:</button> Golf, Snowboarding/Skiing, mountain biking, soccer, hiking, Camping. 
+                                             I guess you could say I just love to be outdoors.</p>
+
+                        <p><button class="button">About Me:</button> Knowledge of web development, with experience and passion for front end web design 
+                                     using HTML, CSS, javaScript and jQuery. I also have knowledge using PHP, SQL, OOP, 
+                                     NoSQL, python and flask/django as well as C# and .NET framework as well as MEAN(mongo, express, angular, node). 
+                                     creative, meticulous, energetic, charismatic, a leader and great listener. 
+                                     multitasking and working great under pressure in a high speed work environment. 
+                                     taking a lot of pride in everything I do, important or not. 
+                                     4 years in the US Navy working on the flight deck in a fast paced highly stressful environment. 
+                                     currently pursuing an education in computer engineering/web development. My goal is to further my knowledge 
+                                     of front end web design creating websites to improve the client/user experience.</p>
+                    </div>
+                </div>
+                <div id=main>
+                    <div class="box">
+                        <img class="box" src="../images/Triforce.jpg" onmouseover="this.src='../images/megaman.jpg';
+                                                                "onmouseout="this.src='../images/Triforce.jpg'">
+                        <p class="boxtext">HOVER</p>
+                    </div>
+                    <div class="box1">
+                            <img class="box1" src="../images/illidan Background.jpg">
+                            <p class="boxtext">CLICK</p>
+                        </div>
+                    <div id="quote">
+                        <span id="ae">Stay away from negative people they have a problem for every solution   -Albert Einstein</span>
+                       
+                    </div>
+                </div>
+                <div id="silver1">
+                        <p> Email: jpgolf.416@gmail.com | Phone: (631) 875 - 8884</p>
+                        <a href="https://github.com/jpagani1984">
+                            <img class="media" src="../images/GitHub.png"></a>
+                        <a href="https://linkedin.com/in/joe-pagani-069806115">
+                            <img class="media" src="../images/linkedin.png"></a>
+                        <a href="https://twitter.com/jpgolf416"> 
+                            <img class="media" src="../images/twitter.png"></a>
+                        <a href="https://www.instagram.com/joe_pagani/">
+                            <img class="media" src="../images/instagram.png"></a>
+                </div>
+        </div>
+    </body>
+</html>
